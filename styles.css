@@ -22,7 +22,8 @@ body{
     font-weight: bold;
     color:white; /* Change color as desired */
     margin-bottom: 20px;
-  }
+}
+
 .searchBox{
     width : 100%;
     display: flex;
