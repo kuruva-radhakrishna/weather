@@ -7,7 +7,7 @@ const watherImage=document.querySelector(".weather-image");
 
 async function checkWeather(city){
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=ad82f8e6af326a5fe4e5ce869fa5481f&units=metrics`);
-    if(response.status==404){
+    if(response.status==404 || city==""){
         document.querySelector(".error").style.display="block";
         document.querySelector(".weather").style.display="none";
     } else {
