@@ -31,3 +31,10 @@ searchBtn.addEventListener("click",()=>{
     checkWeather(searchBox.value);
     console.log(searchBox.value);
 })
+
+document.addEventListener("keypress", (event) => {
+    if (event.key === "Enter") {
+        checkWeather(searchBox.value);
+        console.log(searchBox.value);
+    }
+});
