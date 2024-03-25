@@ -11,16 +11,24 @@ body{
     width : 90%;
     background: linear-gradient(135deg,#00feba ,#5b548a);
     color :white;
-    margin : 100px auto 0;
+    margin : 50px auto 0;
     border-radius: 20px;
     padding : 40px 35px;
     text-align: center;
 }
+.card-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color:white; /* Change color as desired */
+    margin-bottom: 20px;
+  }
 .searchBox{
     width : 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 .searchBox input{
     border : 0;
